@@ -1,18 +1,12 @@
-.athos {
-    background: $offWhite;
+.project {
+    background: black;
     
 
     @include breakpoint-up(medium) {
     margin-top: 45px;
     }
 
-    &__intro {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-        padding: 2rem;
-    }
+
 
     .row {
         display: flex;
@@ -24,7 +18,16 @@
         flex:50%;
         line-height: 0;
         
-        .athos__img {
+
+        .desc {
+            padding: 2rem;
+
+            p.scope {
+            color: $lightGray;
+            }
+        }
+
+        .project__img {
             width: 100%;
             border-radius: 1.35rem;
             margin-bottom: 1rem;
