@@ -31,17 +31,10 @@ nav {
  position: relative;
  background-color: $accentOrange;
  border-radius: .5rem;
- padding: 0.3125rem 1rem;
- margin: 0.125rem 0.3125rem 0px 0.3125rem;
+ padding: 1rem;
+ margin: 0.3125rem;
  
 
-            @include breakpoint-up(medium) {
-            background-color: $pitchBlack;
-
-      a {
-        color: $accentOrange;
-     }
-   }
 }
 
 

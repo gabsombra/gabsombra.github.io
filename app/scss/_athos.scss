@@ -29,12 +29,9 @@
 
         .project__img {
             width: 100%;
-            border-radius: 1.35rem;
+            border-radius: .65rem;
             margin-bottom: 1rem;
 
-            @include breakpoint-up(medium) {
-                border-radius: .65rem;
-            }
 
         }
 
