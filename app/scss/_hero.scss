@@ -1,8 +1,9 @@
 .hero {
     background: $offWhite;
+    
 
     @include breakpoint-up(medium) {
-        margin-top: 45px;
+        margin-top: 3.5rem;
 }
     &__image {
 

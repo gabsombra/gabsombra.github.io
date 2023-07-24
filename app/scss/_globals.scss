@@ -70,7 +70,7 @@ a, a:visited {
  overflow: hidden;
  border-radius: .625rem;
  padding: 2rem;
- margin:  0.3125rem;
+ margin: 1rem;
 
     @include breakpoint-down(small){
          padding: 1rem;
@@ -137,4 +137,8 @@ h4{
     padding-block-end:0; 
     padding-inline-start:0; 
     padding-inline-end:0;
+}
+
+.divider {
+    border-top: 1px solid $lightGray;
 }
