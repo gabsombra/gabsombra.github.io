@@ -1,6 +1,7 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
+    
 }
 
 *, *::before, *::after {
@@ -85,6 +86,14 @@ p {
     font-size: $font-small;
     line-height: 1.2;
     color: $darkGray;
+    margin-block-start:0; 
+    margin-block-end:0; 
+    margin-inline-start:0; 
+    margin-inline-end:0;
+    padding-block-start:0; 
+    padding-block-end:0; 
+    padding-inline-start:0; 
+    padding-inline-end:0;
 }
 
 
@@ -93,7 +102,7 @@ h1 {
     font-weight: 500;
     font-size: $font-xlarge;
     line-height: min(max(3rem, 6vw), 90px);
-    letter-spacing: normal;
+    letter-spacing: -1.3px;
     text-align: left;
     margin-block-start:0; 
     margin-block-end:0; 
@@ -108,6 +117,7 @@ h1 {
 h2 {
     font-weight: 500;
     font-size: $font-large;
+    letter-spacing: -1.3px;
     margin-block-start:0; 
     margin-block-end:0; 
     margin-inline-start:0; 
@@ -119,6 +129,7 @@ h2 {
 }
 
 h3{
+    letter-spacing: -1.3px;
     margin-block-start:0; 
     margin-block-end:0; 
     margin-inline-start:0; 
@@ -132,6 +143,7 @@ h3{
 
 h4{
     font-weight: 400;
+    letter-spacing: -1.3px;
     margin-block-start:0; 
     margin-block-end:0; 
     margin-inline-start:0; 
