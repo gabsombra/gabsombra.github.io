@@ -1,0 +1,32 @@
+.cases {
+    background: $offWhite;
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: .3rem;
+     }
+      
+    .column {
+        flex:50%;
+        line-height: 0;
+        
+        .case__cover {
+            width: 100%;
+            border-radius: .35rem;
+
+            @include breakpoint-up(medium) {
+                border-radius: .65rem;
+            }
+
+        }
+
+            @include breakpoint-down(small) {
+                    flex: 100%;
+            }
+    }
+}
+
+  
+  

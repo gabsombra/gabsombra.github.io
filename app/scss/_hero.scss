@@ -1,0 +1,14 @@
+.hero {
+    background: $offWhite;
+
+    @include breakpoint-up(medium) {
+        margin-top: 45px;
+}
+    &__image {
+
+    }
+
+    &__text {
+
+    }
+}
