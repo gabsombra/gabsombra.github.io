@@ -1,6 +1,8 @@
 .hero {
-    background: $offWhite;
-    
+
+    color: $pitchBlack;
+    height: 50vh;
+
 
     @include breakpoint-up(medium) {
         margin-top: 5.3rem;

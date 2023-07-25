@@ -14,7 +14,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-size: $font-medium;
     line-height: 1.3;
-    background-color: black;
+    background-color: $lightGray;
 }
 
 main {
@@ -102,7 +102,7 @@ h1 {
     font-weight: 500;
     font-size: $font-xlarge;
     line-height: min(max(3rem, 6vw), 90px);
-    letter-spacing: -1.3px;
+    letter-spacing: -5.5px;
     text-align: left;
     margin-block-start:0; 
     margin-block-end:0; 

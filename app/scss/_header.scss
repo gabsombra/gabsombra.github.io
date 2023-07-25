@@ -31,7 +31,7 @@ nav {
  position: relative;
  background-color: $accentOrange;
  border-radius: .5rem;
- padding: 1rem;
+ padding: 0.5rem;
  margin: 0.3125rem;
  
 
@@ -68,6 +68,7 @@ nav {
   margin: 0.125rem 0.3125rem 0.3125rem 0.3125rem;
   
   a {
+    
     display: block;
     text-align: left;
     margin-bottom: 5px;
