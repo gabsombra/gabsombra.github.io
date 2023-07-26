@@ -1,11 +1,21 @@
 .hero {
 
     color: $pitchBlack;
+    margin-top: 5rem;
+
+    @include breakpoint-down(small){
+         padding: .5rem;
+         margin-top: 2rem;
+    }
 
 
-    @include breakpoint-up(medium) {
-        margin-top: 5.3rem;
-}
+    .prevent-select {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+
+
 
     &__intro {
         font-weight: 500;
@@ -14,17 +24,26 @@
         padding: 0;
         line-height: .8;
 
-        .parent {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
-            }
+
+        .first { 
+        
+        }
+
+        .second { 
+            text-align: right;    
+            z-index: 1;
+            margin-top: 1.5rem;
+        }
+        
+        .third { 
             
-            .first { grid-area: 1 / 1 / 2 / 2; }
-            .second { grid-area: 2 / 2 / 3 / 3; text-align: right; }
-            .third { grid-area: 3 / 1 / 4 / 2; ;}
+            font-family: 'Black Junkiest', sans-serif;
+            font-size: $font-xxlarge;
+            color: $accentOrange; 
+            text-align: right; 
+            
+        }
+
     }
 
 }

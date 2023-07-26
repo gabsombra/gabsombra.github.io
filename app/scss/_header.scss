@@ -5,13 +5,12 @@
     top: auto;
     width: 100%;
     padding-bottom: 5px;
-
+    max-width: 1080px;
     
   @include breakpoint-up(medium) {
                   bottom: auto;
                   top: 0;
                   margin-top: 5px;
-
   }
      
   &.open {
@@ -31,8 +30,11 @@
   position: relative;
   background-color: $accentOrange;
   border-radius: .5rem;
-  padding: 0.5rem 1rem;
+  padding:  1rem;
   margin: 0.3125rem;
+  @include breakpoint-up(medium) {
+    padding:  .5rem;
+}
   }
 
 
