@@ -80,12 +80,18 @@ a, a:visited {
     }
 }
 
+span {
+    font-family: 'Black Junkiest', sans-serif;
+    font-size: $font-xxlarge;
+
+                                                
+}
 
 p {
     font-family: 'PP Neue Montreal', sans-serif;
     font-size: $font-small;
     line-height: 1.2;
-    color: $darkGray;
+    color: $pitchBlack;
     margin-block-start:0; 
     margin-block-end:0; 
     margin-inline-start:0; 

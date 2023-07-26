@@ -110,11 +110,16 @@ a, a:visited {
   }
 }
 
+span {
+  font-family: "Black Junkiest", sans-serif;
+  font-size: min(max(5rem, 15vw), 190px);
+}
+
 p {
   font-family: "PP Neue Montreal", sans-serif;
   font-size: min(max(1rem, 1vw), 20px);
   line-height: 1.2;
-  color: hsl(0, 0%, 38%);
+  color: hsl(0, 0%, 10%);
   margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;
@@ -127,7 +132,7 @@ p {
 
 h1 {
   font-weight: 500;
-  font-size: min(max(2.2rem, 6vw), 90px);
+  font-size: min(max(1.8rem, 5vw), 90px);
   line-height: min(max(3rem, 6vw), 90px);
   text-align: left;
   margin-block-start: 0;
@@ -194,7 +199,6 @@ h4 {
     bottom: auto;
     top: 0;
     margin-top: 5px;
-    max-width: 1080px;
   }
 }
 .header.open .line1 {
@@ -258,29 +262,27 @@ h4 {
 }
 .hero__intro {
   font-weight: 500;
-  font-size: min(max(2.2rem, 6vw), 90px);
+  font-size: min(max(1.8rem, 5vw), 90px);
   margin: 0;
   padding: 0;
-  line-height: normal;
+  line-height: 0.8;
+}
+.hero__intro .parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 .hero__intro .first {
-  grid-area: 1/1/2/3;
+  grid-area: 1/1/2/2;
 }
 .hero__intro .second {
-  grid-area: 2/1/3/3;
+  grid-area: 2/2/3/3;
+  text-align: right;
 }
 .hero__intro .third {
-  grid-area: 3/1/4/3;
-  text-align: right;
-}
-.hero__intro .fourth {
-  grid-area: 4/1/5/3;
-  text-align: right;
+  grid-area: 3/1/4/2;
 }
 
 .cases .row {
