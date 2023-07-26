@@ -87,7 +87,6 @@ a, a:visited {
   text-decoration: none;
   color: hsl(0, 0%, 10%);
   font-weight: 500;
-  line-height: normal;
 }
 
 @media (max-width: 39.9375em) {
@@ -192,6 +191,7 @@ h4 {
   width: 100%;
   padding-bottom: 5px;
   max-width: 1080px;
+  z-index: 100;
 }
 @media (min-width: 40em) {
   .header {
@@ -280,7 +280,7 @@ h4 {
 }
 .hero__intro .second {
   text-align: right;
-  z-index: 1;
+  z-index: 99;
   margin-top: 1.5rem;
 }
 .hero__intro .third {
@@ -290,8 +290,26 @@ h4 {
   text-align: right;
 }
 
+.cases {
+  line-height: 0;
+  padding-top: 20vh;
+}
 .cases__title {
   padding: 0.5rem 0 1.5rem 0;
+}
+.cases__gallery {
+  display: grid;
+  gap: 0.3rem;
+}
+.cases__gallery .cover > img {
+  border-radius: 1rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 40em) {
+  .cases__gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .about {

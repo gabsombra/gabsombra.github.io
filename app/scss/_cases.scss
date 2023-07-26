@@ -1,9 +1,32 @@
 .cases {
+    line-height: 0;
+    padding-top: 20vh;
 
     
 
     &__title {
         padding: .5rem 0 1.5rem 0;
+    }
+
+    &__gallery {
+        display: grid;
+        gap: .3rem;
+
+
+        .cover {
+
+            > img {
+                border-radius: 1rem;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        
+        
+        @include breakpoint-up(medium) {
+            grid-template-columns: repeat(2,1fr);
+
+        }
     }
 }
 

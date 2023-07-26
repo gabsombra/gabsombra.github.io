@@ -6,6 +6,7 @@
     width: 100%;
     padding-bottom: 5px;
     max-width: 1080px;
+    z-index: 100;
     
   @include breakpoint-up(medium) {
                   bottom: auto;
@@ -32,6 +33,7 @@
   border-radius: .5rem;
   padding:  .6rem;
   margin: 0.3125rem;
+
   @include breakpoint-up(medium) {
     padding:  .5rem;
 }
