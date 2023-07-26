@@ -113,6 +113,7 @@ a, a:visited {
 span {
   font-family: "Black Junkiest", sans-serif;
   font-size: min(max(5rem, 15vw), 190px);
+  line-height: 1.3;
 }
 
 p {
