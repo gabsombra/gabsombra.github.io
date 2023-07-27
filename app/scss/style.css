@@ -360,7 +360,7 @@ h4 {
   line-height: 0;
 }
 .cases__title {
-  padding: 0.5rem 0 1.5rem 0;
+  padding: 2.5rem 0 1.5rem 0;
 }
 .cases__gallery {
   display: grid;
@@ -386,23 +386,11 @@ h4 {
   padding-top: 10vh;
   overflow: hidden;
 }
-@media (max-width: 39.9375em) {
-  .about {
-    flex-direction: column-reverse;
-  }
-}
 .about__services {
   position: absolute;
   top: auto;
   bottom: 0;
-  margin-bottom: 1rem;
-}
-@media (max-width: 39.9375em) {
-  .about__services {
-    top: 0;
-    bottom: auto;
-    margin-top: 1rem;
-  }
+  margin-bottom: 5rem;
 }
 .about__services-items {
   position: relative;

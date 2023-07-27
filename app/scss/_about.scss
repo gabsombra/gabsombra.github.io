@@ -8,23 +8,13 @@ padding-top: 10vh;
 
 overflow: hidden;
 
-    @include breakpoint-down(small){
-        flex-direction: column-reverse;
-    }
 
     &__services {
         position: absolute;
         top: auto;
         bottom: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
 
-        @include breakpoint-down(small){
-            top: 0;
-            bottom: auto;
-            margin-top: 1rem;
-            
-       }
-        
         &-items {
             position: relative;
             background-color: $pitchBlack;
