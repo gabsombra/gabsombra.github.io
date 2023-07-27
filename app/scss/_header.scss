@@ -5,9 +5,8 @@
     top: auto;
     width: 100%;
     padding-bottom: 5px;
-    max-width: 1080px;
     z-index: 100;
-    
+
   @include breakpoint-up(medium) {
                   bottom: auto;
                   top: 0;
