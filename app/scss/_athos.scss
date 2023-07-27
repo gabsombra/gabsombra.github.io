@@ -1,12 +1,24 @@
 .project {
-    background: black;
     
+        background: black;
+        overflow: hidden;
+        border-radius: .625rem;
+        padding: 2rem;
+        margin: 3.5rem;
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+       
 
-    @include breakpoint-up(medium) {
-    margin-top: 55px;
+
+    @include breakpoint-down(small) {
+    margin: 1rem;
     }
 
+    &__gallery {
+        
 
+    }
 
     .row {
         display: flex;
