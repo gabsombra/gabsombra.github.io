@@ -1,0 +1,28 @@
+.alert {
+    position:fixed;
+	width: fit-content;
+    padding: 1rem;
+    margin: .5rem;
+    bottom: 100px;
+	right: 20px;
+    border-radius: 0.65rem;
+    background-color: $accentOrange;
+    z-index: 100;
+
+    font-weight: 500;
+
+    .closebtn {
+        margin-left: 15px;
+        background-color: white;
+        border-radius: 10rem;
+        padding: .5rem 1rem;
+        margin: 1rem;
+        float: right;
+        cursor: pointer;
+        transition: 0.3s;
+
+        .closebtn:hover {
+            color: black;
+          }
+      }
+}

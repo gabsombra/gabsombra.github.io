@@ -146,7 +146,7 @@ a, a:visited {
 ul {
   list-style: none;
   font-weight: 500;
-  font-size: min(max(1.5rem, 2vw), 40px);
+  font-size: min(max(1.5rem, 1.5vw), 40px);
   list-style-type: none;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -159,7 +159,7 @@ ul {
 li {
   list-style: none;
   font-weight: 500;
-  font-size: min(max(1.5rem, 2vw), 40px);
+  font-size: min(max(1.5rem, 1.5vw), 40px);
   list-style-type: none;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -201,7 +201,7 @@ h1 {
 
 h2 {
   font-weight: 500;
-  font-size: min(max(1.5rem, 2vw), 40px);
+  font-size: min(max(1.5rem, 1.5vw), 40px);
   line-height: 0.8;
   text-align: right;
   margin-block-start: 0;
@@ -216,7 +216,7 @@ h2 {
 
 h3 {
   font-weight: 500;
-  font-size: min(max(1.5rem, 2vw), 40px);
+  font-size: min(max(1.5rem, 1.5vw), 40px);
   line-height: 0.8;
   text-align: right;
   margin-block-start: 0;
@@ -384,7 +384,7 @@ h4 {
   height: 100vh;
   background-color: hsl(13, 88%, 55%);
   padding-top: 10vh;
-  overflow: hidden;
+  overflow: scroll;
 }
 .about__services {
   position: absolute;
@@ -397,10 +397,10 @@ h4 {
   background-color: hsl(0, 0%, 10%);
   color: hsl(0, 0%, 96%);
   border-radius: 100px;
-  font-size: min(max(1.5rem, 2vw), 40px);
-  margin-left: 2rem;
-  margin-top: 2rem;
-  padding: 1rem 3rem;
+  font-size: min(max(1rem, 1vw), 20px);
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
 }
 .about__services-inner {
   display: block;
@@ -455,8 +455,35 @@ h4 {
 }
 @media (max-width: 39.9375em) {
   .about__me-desc {
-    font-size: min(max(1.5rem, 2vw), 40px);
+    font-size: min(max(1.5rem, 1.5vw), 40px);
   }
+}
+
+.alert {
+  position: fixed;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  margin: 0.5rem;
+  bottom: 100px;
+  right: 20px;
+  border-radius: 0.65rem;
+  background-color: hsl(13, 88%, 55%);
+  z-index: 100;
+  font-weight: 500;
+}
+.alert .closebtn {
+  margin-left: 15px;
+  background-color: white;
+  border-radius: 10rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  float: right;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.alert .closebtn .closebtn:hover {
+  color: black;
 }
 
 .project {
