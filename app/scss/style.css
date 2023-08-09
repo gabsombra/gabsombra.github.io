@@ -274,12 +274,12 @@ h4 {
   position: relative;
   background-color: hsl(13, 88%, 55%);
   border-radius: 0.5rem;
-  padding: 0.6rem;
+  padding: 0.6rem 1rem;
   margin: 0.3125rem;
 }
 @media (min-width: 40em) {
   .header nav {
-    padding: 0.5rem;
+    padding: 0.5rem 1.5rem;
   }
 }
 .header__toggle {
@@ -465,7 +465,7 @@ h4 {
   width: fit-content;
   padding: 1rem;
   margin: 0.5rem;
-  bottom: 80px;
+  bottom: 30px;
   right: 20px;
   border-radius: 0.65rem;
   background-color: hsl(13, 88%, 55%);

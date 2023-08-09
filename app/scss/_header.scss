@@ -30,11 +30,11 @@
   position: relative;
   background-color: $accentOrange;
   border-radius: .5rem;
-  padding:  .6rem;
+  padding:  .6rem 1rem;
   margin: 0.3125rem;
 
   @include breakpoint-up(medium) {
-    padding:  .5rem;
+    padding:  .5rem 1.5rem;
 }
   }
 
