@@ -1,0 +1,54 @@
+.project {
+    
+        background: black;
+        overflow: hidden;
+        border-radius: .625rem;
+        padding: 2rem;
+        margin: 3.5rem;
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+       
+
+
+    @include breakpoint-down(small) {
+    margin: 1rem;
+    }
+
+    &__gallery {
+        
+
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: .3rem;
+     }
+      
+    .column {
+        flex:50%;
+        line-height: 0;
+        
+
+        .desc {
+            padding: 2rem;
+
+            p.scope {
+            color: $lightGray;
+            }
+        }
+
+        .project__img {
+            width: 100%;
+            border-radius: .65rem;
+            margin-bottom: 1rem;
+
+
+        }
+
+            @include breakpoint-down(small) {
+                    flex: 100%;
+            }
+    }
+}

@@ -272,7 +272,7 @@ h4 {
 }
 .header nav {
   position: relative;
-  background-color: hsl(13, 88%, 55%);
+  background-color: #f15327;
   border-radius: 0.5rem;
   padding: 0.6rem 1rem;
   margin: 0.3125rem;
@@ -300,7 +300,7 @@ h4 {
   transform: translateX(-50%) rotate(90deg);
 }
 .header__menu {
-  background: hsl(13, 88%, 55%);
+  background: #f15327;
   border-radius: 0.375rem;
   padding: 1rem;
   margin: 0.125rem 0.3125rem 0.3125rem 0.3125rem;
@@ -352,7 +352,7 @@ h4 {
 .hero__intro .third {
   font-family: "Black Junkiest", sans-serif;
   font-size: min(max(5.5rem, 25vw), 300px);
-  color: hsl(13, 88%, 55%);
+  color: #f15327;
   text-align: right;
 }
 
@@ -382,7 +382,7 @@ h4 {
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-color: hsl(13, 88%, 55%);
+  background-color: #f15327;
   padding-top: 10vh;
   overflow: scroll;
 }
@@ -468,7 +468,7 @@ h4 {
   bottom: 30px;
   right: 20px;
   border-radius: 0.65rem;
-  background-color: hsl(13, 88%, 55%);
+  background-color: #f15327;
   z-index: 100;
   font-weight: 500;
 }
@@ -484,6 +484,47 @@ h4 {
 }
 .alert .closebtn .closebtn:hover {
   color: black;
+}
+
+.project {
+  background: black;
+  overflow: hidden;
+  border-radius: 0.625rem;
+  padding: 2rem;
+  margin: 3.5rem;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 39.9375em) {
+  .project {
+    margin: 1rem;
+  }
+}
+.project .row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.3rem;
+}
+.project .column {
+  flex: 50%;
+  line-height: 0;
+}
+.project .column .desc {
+  padding: 2rem;
+}
+.project .column .desc p.scope {
+  color: hsl(0, 0%, 85%);
+}
+.project .column .project__img {
+  width: 100%;
+  border-radius: 0.65rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 39.9375em) {
+  .project .column {
+    flex: 100%;
+  }
 }
 
 .project {
